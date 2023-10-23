@@ -1,2 +1,2 @@
-# flexbox-t7
+# Flexbox (turma 7)
 Aula e atividades sobre Flexbox
