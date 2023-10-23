@@ -1,0 +1,25 @@
+.conteiner {
+    width: auto;
+    height: 280px;
+    background-color: antiquewhite;
+    border: 2px solid #000; /* Shorthand equivalente ao comentado abaixo */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: #000; */
+    
+    display: flex;
+    flex-direction: row; /* possíveis valores: row*, row-reverse, column, comumn-reverse */
+    justify-content: space-evenly; /* possíveis valores: flex-start*, flex-end, center, start, end, space-around, space-between, space-evenly */
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-flow: row wrap; /* shorthand de flex-direction + flex-wrap */
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(208, 157, 255);
+    border: 2px solid #000;
+    font-size: 2rem; /* pesquisar unidades de medida */
+}
